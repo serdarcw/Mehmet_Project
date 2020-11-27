@@ -1,0 +1,34 @@
+{% extends 'index.html' %}
+
+{% block body %}
+<h2 style="color: royalblue;">More Information About Covid 19</h2>
+<p>
+<h3> What is the Coronavirus?</h3><br>
+Answer: Coronaviruses are a large family of viruses that can cause illnesses that range from the common cold to severe diseases such as Severe Acute Respiratory Syndrome (SARS-CoV) or Middle East Respiratory Syndrome (MERS-CoV).
+<br><br>
+Question: What is COVID-19 and why is it different from other types of coronaviruses?<br>
+Answer: The coronavirus disease 2019 (COVID-19) is a new strain of the coronavirus that has not been previously identified in humans. It is not the same as other coronaviruses that causes the common cold or mild upper respiratory tract diseases.
+<br><br>
+Question: How Does COVID-19 Spread?<br>
+Answer: The virus is transmitted from person to person who are in close contact with one another (approximately 6 feet). Transmission occurs through respiratory droplets produced when an infected person coughs or sneezes or someone touches surfaces and objects that have been handled by those who are infected.
+<br><br>
+Question: What Are The Symptoms of COVID-19?<br>
+Answer: COVID-19 is an infectious respiratory illness like influenza. The main symptoms of COVID -19 include fever, cough, and shortness of breath. Symptoms of COVID -19 can range from mild to severe
+<br><br>
+Question: What Should I Do If I have Symptoms?<br>
+Answer: According to the Centers for Disease Control and Prevention (CDC), if you are presenting symptoms or believe you have COVID-19, you should follow these recommendations:
+<ol>
+    <li>Stay home. People who are mildly ill with COVID-19 are able to recover at home. Do not leave, except to get medical care. Do not visit public areas.</li>
+    <li>Continuously monitor your symptoms.</li>
+    <li>If your symptoms are worsening, seek medical attention by calling your doctor or nearest emergency room. They will advise on you what steps to take next.</li>
+    <li>If you are advised by a physician to receive treatment, please put on a facemask before you enter the building. If you can’t put on a facemask, try to keep a safe distance from other people (at least 6 feet away). This will help protect the people in the office or waiting room.</li>
+    <li>Follow care instructions from your healthcare provider and local health department: Your local health authorities will give instructions on checking your symptoms and reporting information.</li>
+</ol>
+<footer>This information is taken from website named : https://jamaicahospital.org/information-about-covid-19/ </footer>
+
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" >For more Information</a>
+<br>
+<a href="{{ url_for('index')}}">Go Back to Home Page</a>
+</p>
+
+{% endblock %}
